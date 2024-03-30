@@ -1,0 +1,210 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+ 
+    <style media="screen">
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+footer {
+  background-color: #121315;
+  color: #d8dada;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+    </style>
+  </head>
+  <body>
+<footer>
+      <div class="row primary">
+        <div class="column about">
+          <div class="logo">
+            <img src="C:\Users\ADMIN\Desktop\Ảnh bổ sung\Logo.png">
+        </div>
+          <h3>Genher Bistro </h3>
+          <p>
+            Ẩm thực luôn là món ăn khá phong phú và đa dạng, do đó để giữ chân khách hàng
+            Chúng tôi luôn sáng tạo, tìm hiểu những món ăn mới để có được một ấn tượng tốt khi khách hàng đến trải nghiêm.
+          </p>
+                    <div class="social">
+                      <i class="fa-brands fa-facebook-square"></i>
+                      <i class="fa-brands fa-instagram-square"></i>
+                      <i class="fa-brands fa-twitter-square"></i>
+                      <i class="fa-brands fa-youtube-square"></i>
+                    </div>
+        </div>
+        <div class="column links">
+          <h3>Thông tin về chúng tôi</h3>
+          <ul>
+            <li>
+              <i class="fas fa-phone"></i> Số điện thoại:0389110586
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i> Email: thuyhien24062002@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Địa chỉ: 246/6 Nguyễn Thái Sơn, phường 4, Gò Vấp, <Tp class="HCM"></Tp>
+            </li>
+          </ul>
+        </div>
+          <div class="column links">
+            <h3>Nội dung</h3>
+            <ul>
+              <li>
+                Trang chủ
+              </li>
+              <li>
+                Thực đơn
+              </li>
+              <li>
+                Ưu đãi
+              </li>
+              <li>
+                Đặt bàn
+              </li>
+              <li>Liên hệ</li>
+
+            </ul>
+          </div>
+        <div class="column subscribe">
+          <h3>Đăng ký</h3>
+          <div>
+            <input type="Name" placeholder="Họ và tên" />
+            <input type="email" placeholder="Email của bạn!" />
+            <button>Subscribe</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row copyright">
+         <div class="footer-menu">
+
+                       <a href="">Trang chủ</a>
+                       <a href="">Thực đơn</a>
+                       <a href="">Đặt bàn</a>
+                       <a href="">Ưu đãi</a>
+                       <a href="">Liên hệ</a>
+         </div>
+
+      </div>
+    </footer>
+  </body>
+</html>
